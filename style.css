@@ -1,5 +1,5 @@
 body{
-    background-color: #f8e7a24d;
+    background-color: #FCF7E2;
     color: #7B2A3B;
 }
 #navigation{
@@ -29,7 +29,7 @@ a:hover{
 }
 nav a{
     padding: 0 10px;
-    border-bottom: 2px solid #f8e7a24d;
+    border-bottom: 2px solid #FCF7E2;
     font-weight: 600;
 }
 #hero{
