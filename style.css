@@ -1,0 +1,67 @@
+body{
+    background-color: #f8e7a24d;
+    color: #7B2A3B;
+}
+#navigation{
+    margin: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.logo{
+    font-family: 'Great Vibes';
+    font-size: 2em;
+}
+#logo{
+    justify-content: start;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+a, a:link, a:visited, a:active{
+    color: #7B2A3B;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 2px solid #7B2A3B;
+    transition: 1s;
+}
+nav a{
+    padding: 0 10px;
+    border-bottom: 2px solid #f8e7a24d;
+    font-weight: 600;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+.diamond{
+    position: absolute;
+    background-color: #fff;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+    margin: -50px -50px;
+    box-shadow: 10px 10px 12px -10px #000;
+}
+.hero_image{
+    background-color: #E57661;
+    width: 100%;
+    height: 400px;
+}
+.story_container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5% 15%;
+}
+.story{
+    text-align: center;
+    z-index: 1;
+}
+.lorem{
+    display: block;
+    width: 50%;
+    margin: -30px 50px;
+}
